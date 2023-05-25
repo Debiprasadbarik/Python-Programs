@@ -1,0 +1,17 @@
+num=int(input("enter 4 digit no:"))
+a=num%10
+num=num//10
+b=num%10
+num=num//10
+c=num%10
+num=num//10
+d=num//1
+print("face value of 1st digit=",d)
+print("face value of 2nd digit=",c)
+print("face value of 3rd digit=",b)
+print("face value of 4th digit=",a)
+e,f,g,h=(d*1000),(c*100),(b*10),(a*1)
+print("place value of 1st digit=",e)
+print("place value of 2nd digit=",f)
+print("place value of 3rd digit=",g)
+print("place value of 4th digit=",h)

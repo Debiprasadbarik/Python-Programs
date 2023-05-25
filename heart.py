@@ -1,0 +1,16 @@
+import turtle as tt
+import winsound
+tt.pensize(5)
+tt.speed(1)
+tt.color('red')
+tt.begin_fill()
+tt.fillcolor('red')
+tt.left(150)
+tt.forward(180)
+tt.circle(-90,180)
+tt.setheading(60)
+tt.circle(-90,180)
+tt.forward(180)
+tt.end_fill()
+tt.hideturtle()
+tt.done()
